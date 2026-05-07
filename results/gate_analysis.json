@@ -1,0 +1,78 @@
+{
+  "S1": {},
+  "S2": {
+    "13C-NMR": {
+      "mean_alpha": 0.0002,
+      "std_alpha": 0.0,
+      "mean_conf": 1.0,
+      "n_samples": 5000,
+      "is_missing": true
+    },
+    "IR": {
+      "mean_alpha": 0.0002,
+      "std_alpha": 0.0,
+      "mean_conf": 1.0,
+      "n_samples": 5000,
+      "is_missing": true
+    }
+  },
+  "S3": {
+    "1H-NMR": {
+      "mean_alpha": 0.0002,
+      "std_alpha": 0.0,
+      "mean_conf": 1.0,
+      "n_samples": 5000,
+      "is_missing": true
+    },
+    "IR": {
+      "mean_alpha": 0.0002,
+      "std_alpha": 0.0,
+      "mean_conf": 1.0,
+      "n_samples": 5000,
+      "is_missing": true
+    }
+  },
+  "S4": {
+    "IR": {
+      "mean_alpha": 0.0008,
+      "std_alpha": 0.0002,
+      "mean_conf": 0.0439,
+      "n_samples": 5000,
+      "is_missing": true
+    }
+  },
+  "S5": {
+    "13C-NMR": {
+      "mean_alpha": 0.0005,
+      "std_alpha": 0.0004,
+      "mean_conf": 0.4148,
+      "n_samples": 5000,
+      "is_missing": true
+    }
+  },
+  "S6": {
+    "1H-NMR": {
+      "mean_alpha": 0.0008,
+      "std_alpha": 0.0001,
+      "mean_conf": 0.0208,
+      "n_samples": 5000,
+      "is_missing": true
+    }
+  },
+  "S7": {
+    "1H-NMR": {
+      "mean_alpha": 0.0002,
+      "std_alpha": 0.0,
+      "mean_conf": 1.0,
+      "n_samples": 5000,
+      "is_missing": true
+    },
+    "13C-NMR": {
+      "mean_alpha": 0.0002,
+      "std_alpha": 0.0,
+      "mean_conf": 1.0,
+      "n_samples": 5000,
+      "is_missing": true
+    }
+  }
+}

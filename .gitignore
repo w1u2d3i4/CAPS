@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.swp
+.DS_Store
+
+# never commit large mmap/checkpoint blobs
+*.npy
+*.npz
+*.pt
+*.pth
+*.bin
+data/processed/
+checkpoints/
+logs/

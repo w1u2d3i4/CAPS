@@ -1,0 +1,80 @@
+{
+  "checkpoint": "checkpoints/scaffold_full_caps_100ep/best.pt",
+  "n_samples": 5000,
+  "S1": {},
+  "S2": {
+    "13C": {
+      "mean_alpha": 0.0,
+      "std_alpha": 0.0,
+      "mean_conf": 1.0,
+      "is_missing": true,
+      "n": 5000
+    },
+    "IR": {
+      "mean_alpha": 0.0,
+      "std_alpha": 0.0,
+      "mean_conf": 1.0,
+      "is_missing": true,
+      "n": 5000
+    }
+  },
+  "S3": {
+    "1H": {
+      "mean_alpha": 0.0,
+      "std_alpha": 0.0,
+      "mean_conf": 1.0,
+      "is_missing": true,
+      "n": 5000
+    },
+    "IR": {
+      "mean_alpha": 0.0,
+      "std_alpha": 0.0,
+      "mean_conf": 1.0,
+      "is_missing": true,
+      "n": 5000
+    }
+  },
+  "S4": {
+    "IR": {
+      "mean_alpha": 0.0,
+      "std_alpha": 0.0,
+      "mean_conf": 0.3309,
+      "is_missing": true,
+      "n": 5000
+    }
+  },
+  "S5": {
+    "13C": {
+      "mean_alpha": 0.0,
+      "std_alpha": 0.0,
+      "mean_conf": 0.6241,
+      "is_missing": true,
+      "n": 5000
+    }
+  },
+  "S6": {
+    "1H": {
+      "mean_alpha": 0.0,
+      "std_alpha": 0.0,
+      "mean_conf": 0.2289,
+      "is_missing": true,
+      "n": 5000
+    }
+  },
+  "S7": {
+    "1H": {
+      "mean_alpha": 0.0,
+      "std_alpha": 0.0,
+      "mean_conf": 1.0,
+      "is_missing": true,
+      "n": 5000
+    },
+    "13C": {
+      "mean_alpha": 0.0,
+      "std_alpha": 0.0,
+      "mean_conf": 1.0,
+      "is_missing": true,
+      "n": 5000
+    }
+  }
+}

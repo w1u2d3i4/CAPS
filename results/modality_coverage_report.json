@@ -1,0 +1,57 @@
+{
+  "total_samples": 794403,
+  "core_coverage": {
+    "1H_NMR": 794403,
+    "13C_NMR": 794403,
+    "IR": 794403
+  },
+  "all_coverage": {
+    "1H_NMR": 794403,
+    "13C_NMR": 794403,
+    "IR": 794403,
+    "HSQC": 794379,
+    "MS_pos": 794403,
+    "MS_neg": 794403,
+    "1H_spectrum": 794403,
+    "13C_spectrum": 794403
+  },
+  "core_combos": {
+    "13C_NMR+1H_NMR+IR": 794403
+  },
+  "three_modal_count": 0,
+  "three_modal_pct": 0.0,
+  "peak_stats": {
+    "1H_NMR": {
+      "min": 3,
+      "max": 23,
+      "median": 9,
+      "mean": 9.2
+    },
+    "13C_NMR": {
+      "min": 4,
+      "max": 74,
+      "median": 16,
+      "mean": 17.5
+    }
+  },
+  "spectrum_stats": {
+    "IR": {
+      "min": 1800,
+      "max": 1800,
+      "median": 1800,
+      "mean": 1800.0
+    },
+    "1H_spectrum": {
+      "min": 10000,
+      "max": 10000,
+      "median": 10000,
+      "mean": 10000.0
+    },
+    "13C_spectrum": {
+      "min": 10000,
+      "max": 10000,
+      "median": 10000,
+      "mean": 10000.0
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "batch_size": 128,
+  "n_warmup": 5,
+  "n_timed": 50,
+  "models": {
+    "Full_CAPS": {
+      "params_M": 13.907,
+      "forward": {
+        "ms_per_batch_mean": 80.09449679404497,
+        "ms_per_batch_std": 1.440580549997956,
+        "peak_mem_mb": 623.76806640625,
+        "n_timed": 50,
+        "batch_size": 128
+      },
+      "fwd_bwd": {
+        "ms_per_batch_mean": 224.36498805880547,
+        "ms_per_batch_std": 5.5912263471487,
+        "peak_mem_mb": 4869.39453125,
+        "n_timed": 50,
+        "batch_size": 128
+      }
+    },
+    "Proxy_only": {
+      "params_M": 13.446,
+      "forward": {
+        "ms_per_batch_mean": 35.628018230199814,
+        "ms_per_batch_std": 0.7821870117882666,
+        "peak_mem_mb": 596.60107421875,
+        "n_timed": 50,
+        "batch_size": 128
+      },
+      "fwd_bwd": {
+        "ms_per_batch_mean": 137.08268247544765,
+        "ms_per_batch_std": 4.263778915801685,
+        "peak_mem_mb": 4861.60546875,
+        "n_timed": 50,
+        "batch_size": 128
+      }
+    }
+  },
+  "overhead": {
+    "params_pct": 3.43,
+    "forward_ms_pct": 124.81,
+    "fwdbwd_ms_pct": 63.67,
+    "forward_mem_pct": 4.55,
+    "fwdbwd_mem_pct": 0.16
+  }
+}

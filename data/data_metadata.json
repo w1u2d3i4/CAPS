@@ -1,0 +1,8 @@
+{
+  "total": 794403,
+  "max_h_peaks": 28,
+  "max_c_peaks": 74,
+  "ir_length": 1800,
+  "h_feat_dim": 7,
+  "c_feat_dim": 3
+}

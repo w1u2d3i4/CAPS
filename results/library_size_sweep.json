@@ -1,0 +1,103 @@
+{
+  "checkpoint": "checkpoints/scaffold_full_caps_100ep/best.pt",
+  "n_test": 79441,
+  "n_repeats": 5,
+  "lib_sizes": [
+    1000,
+    5000,
+    20000,
+    79000
+  ],
+  "scenarios": {
+    "S1_full": {
+      "1000": {
+        "lib_size": 1000,
+        "top1_mean": 0.9972,
+        "top1_std": 0.0023,
+        "top5_mean": 1.0,
+        "top5_std": 0.0
+      },
+      "5000": {
+        "lib_size": 5000,
+        "top1_mean": 0.988,
+        "top1_std": 0.001,
+        "top5_mean": 0.9996,
+        "top5_std": 0.0002
+      },
+      "20000": {
+        "lib_size": 20000,
+        "top1_mean": 0.965,
+        "top1_std": 0.0012,
+        "top5_mean": 0.9984,
+        "top5_std": 0.0002
+      },
+      "79000": {
+        "lib_size": 79000,
+        "top1_mean": 0.9006,
+        "top1_std": 0.0001,
+        "top5_mean": 0.9933,
+        "top5_std": 0.0
+      }
+    },
+    "S4_1H_13C": {
+      "1000": {
+        "lib_size": 1000,
+        "top1_mean": 0.992,
+        "top1_std": 0.0024,
+        "top5_mean": 0.9994,
+        "top5_std": 0.0005
+      },
+      "5000": {
+        "lib_size": 5000,
+        "top1_mean": 0.9742,
+        "top1_std": 0.0021,
+        "top5_mean": 0.9974,
+        "top5_std": 0.0005
+      },
+      "20000": {
+        "lib_size": 20000,
+        "top1_mean": 0.9357,
+        "top1_std": 0.0012,
+        "top5_mean": 0.9921,
+        "top5_std": 0.0008
+      },
+      "79000": {
+        "lib_size": 79000,
+        "top1_mean": 0.8458,
+        "top1_std": 0.0001,
+        "top5_mean": 0.9766,
+        "top5_std": 0.0
+      }
+    },
+    "S7_IR_only": {
+      "1000": {
+        "lib_size": 1000,
+        "top1_mean": 0.9322,
+        "top1_std": 0.0049,
+        "top5_mean": 0.9888,
+        "top5_std": 0.0045
+      },
+      "5000": {
+        "lib_size": 5000,
+        "top1_mean": 0.8309,
+        "top1_std": 0.0063,
+        "top5_mean": 0.9605,
+        "top5_std": 0.0039
+      },
+      "20000": {
+        "lib_size": 20000,
+        "top1_mean": 0.6986,
+        "top1_std": 0.0015,
+        "top5_mean": 0.9003,
+        "top5_std": 0.0018
+      },
+      "79000": {
+        "lib_size": 79000,
+        "top1_mean": 0.5224,
+        "top1_std": 0.0002,
+        "top5_mean": 0.7912,
+        "top5_std": 0.0001
+      }
+    }
+  }
+}

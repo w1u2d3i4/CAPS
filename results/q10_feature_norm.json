@@ -1,0 +1,19 @@
+{
+  "checkpoint": "checkpoints/scaffold_full_caps_100ep/best.pt",
+  "stats_n_samples": 10000,
+  "results": {
+    "real_nmr_S4": {
+      "raw": {
+        "top1": 0.0010073028970509768,
+        "top5": 0.004281037487089634,
+        "top10": 0.0073029459454119205
+      },
+      "z_norm": {
+        "top1": 0.0001259128621313721,
+        "top5": 0.0003777385863941163,
+        "top10": 0.0008813900640234351
+      },
+      "delta_top1_pp": -0.088
+    }
+  }
+}

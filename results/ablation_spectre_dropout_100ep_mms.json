@@ -1,0 +1,112 @@
+{
+  "S1": {
+    "name": "1H+13C+IR (full)",
+    "mask": [
+      true,
+      true,
+      true
+    ],
+    "top1": 0.9416,
+    "top5": 0.9953,
+    "top10": 0.9981,
+    "mean_rank": 1.1,
+    "median_rank": 1.0,
+    "time_seconds": 173.0
+  },
+  "S2": {
+    "name": "1H only",
+    "mask": [
+      true,
+      false,
+      false
+    ],
+    "top1": 0.7948,
+    "top5": 0.9421,
+    "top10": 0.9666,
+    "mean_rank": 3.5,
+    "median_rank": 1.0,
+    "time_seconds": 182.7
+  },
+  "S3": {
+    "name": "13C only",
+    "mask": [
+      false,
+      true,
+      false
+    ],
+    "top1": 0.6319,
+    "top5": 0.8195,
+    "top10": 0.8668,
+    "mean_rank": 34.9,
+    "median_rank": 1.0,
+    "time_seconds": 184.5
+  },
+  "S4": {
+    "name": "1H+13C",
+    "mask": [
+      true,
+      true,
+      false
+    ],
+    "top1": 0.8835,
+    "top5": 0.9762,
+    "top10": 0.9869,
+    "mean_rank": 1.7,
+    "median_rank": 1.0,
+    "time_seconds": 184.4
+  },
+  "S5": {
+    "name": "1H+IR",
+    "mask": [
+      true,
+      false,
+      true
+    ],
+    "top1": 0.9158,
+    "top5": 0.9914,
+    "top10": 0.9963,
+    "mean_rank": 1.2,
+    "median_rank": 1.0,
+    "time_seconds": 187.0
+  },
+  "S6": {
+    "name": "13C+IR",
+    "mask": [
+      false,
+      true,
+      true
+    ],
+    "top1": 0.8934,
+    "top5": 0.9836,
+    "top10": 0.992,
+    "mean_rank": 1.5,
+    "median_rank": 1.0,
+    "time_seconds": 169.1
+  },
+  "S7": {
+    "name": "IR only",
+    "mask": [
+      false,
+      false,
+      true
+    ],
+    "top1": 0.6601,
+    "top5": 0.88,
+    "top10": 0.9251,
+    "mean_rank": 12.0,
+    "median_rank": 1.0,
+    "time_seconds": 175.4
+  },
+  "summary": {
+    "full_modal_top1": 0.9416,
+    "avg_missing_top1": 0.7966,
+    "degradation_rates": {
+      "S2": 0.1559,
+      "S3": 0.3289,
+      "S4": 0.0617,
+      "S5": 0.0274,
+      "S6": 0.0512,
+      "S7": 0.299
+    }
+  }
+}

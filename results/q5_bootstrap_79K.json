@@ -1,0 +1,108 @@
+{
+  "n_test": 79441,
+  "n_boot": 300,
+  "results": {
+    "scaffold_full_caps": {
+      "S1": {
+        "mean_top1": 0.9004,
+        "ci95_lo": 0.8983,
+        "ci95_hi": 0.9024,
+        "ci_half": 0.002,
+        "n_correct": 71518
+      },
+      "S2": {
+        "mean_top1": 0.7211,
+        "ci95_lo": 0.7183,
+        "ci95_hi": 0.7243,
+        "ci_half": 0.003,
+        "n_correct": 57285
+      },
+      "S3": {
+        "mean_top1": 0.5655,
+        "ci95_lo": 0.5615,
+        "ci95_hi": 0.5689,
+        "ci_half": 0.0037,
+        "n_correct": 44913
+      },
+      "S4": {
+        "mean_top1": 0.8454,
+        "ci95_lo": 0.843,
+        "ci95_hi": 0.8479,
+        "ci_half": 0.0024,
+        "n_correct": 67152
+      },
+      "S5": {
+        "mean_top1": 0.8567,
+        "ci95_lo": 0.8545,
+        "ci95_hi": 0.8589,
+        "ci_half": 0.0022,
+        "n_correct": 68054
+      },
+      "S6": {
+        "mean_top1": 0.8497,
+        "ci95_lo": 0.8472,
+        "ci95_hi": 0.852,
+        "ci_half": 0.0024,
+        "n_correct": 67495
+      },
+      "S7": {
+        "mean_top1": 0.5217,
+        "ci95_lo": 0.5181,
+        "ci95_hi": 0.5251,
+        "ci_half": 0.0035,
+        "n_correct": 41443
+      }
+    },
+    "scaffold_spectre_dropout": {
+      "S1": {
+        "mean_top1": 0.889,
+        "ci95_lo": 0.8869,
+        "ci95_hi": 0.8911,
+        "ci_half": 0.0021,
+        "n_correct": 70617
+      },
+      "S2": {
+        "mean_top1": 0.7158,
+        "ci95_lo": 0.7128,
+        "ci95_hi": 0.7188,
+        "ci_half": 0.003,
+        "n_correct": 56866
+      },
+      "S3": {
+        "mean_top1": 0.5915,
+        "ci95_lo": 0.588,
+        "ci95_hi": 0.5952,
+        "ci_half": 0.0036,
+        "n_correct": 46976
+      },
+      "S4": {
+        "mean_top1": 0.8332,
+        "ci95_lo": 0.8309,
+        "ci95_hi": 0.836,
+        "ci_half": 0.0025,
+        "n_correct": 66179
+      },
+      "S5": {
+        "mean_top1": 0.8448,
+        "ci95_lo": 0.8424,
+        "ci95_hi": 0.847,
+        "ci_half": 0.0023,
+        "n_correct": 67109
+      },
+      "S6": {
+        "mean_top1": 0.8321,
+        "ci95_lo": 0.8295,
+        "ci95_hi": 0.8346,
+        "ci_half": 0.0025,
+        "n_correct": 66106
+      },
+      "S7": {
+        "mean_top1": 0.5192,
+        "ci95_lo": 0.5158,
+        "ci95_hi": 0.5225,
+        "ci_half": 0.0034,
+        "n_correct": 41251
+      }
+    }
+  }
+}
